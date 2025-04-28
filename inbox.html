@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Combo Tasks</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 15px 25px;
+      color: #0d0d0d;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    a.button::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: rgba(255, 255, 255, 0.1);
+      transform: rotate(45deg);
+      transition: all 0.5s ease;
+    }
+    a.button:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.6);
+    }
+    a.button:hover::after {
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://earn.ratetomake.com/my-tasks/532af29c-53c6-4fce-8b5e-e3c63f4e6b85" class="button" style="background: linear-gradient(135deg, #00ffff, #0077ff);" target="_blank">Task #1</a>
+  <a href="https://earn.ratetomake.com/my-tasks/04061fa9-a81f-4cb1-a81c-e7f2a420e96f" class="button" style="background: linear-gradient(135deg, #a1c4fd, #c2e9fb);" target="_blank">Task #2</a>
+  <a href="https://earn.ratetomake.com/my-tasks/5bd4623a-2fa3-481d-9dde-448e1ec65189" class="button" style="background: linear-gradient(135deg, #f6d365, #fda085);" target="_blank">Task #3</a>
+  <a href="https://earn.ratetomake.com/my-tasks/f4771927-9dfc-4c89-80ed-b9ee2dfa5cf1" class="button" style="background: linear-gradient(135deg, #f6d365, #fda085);" target="_blank">Task #4</a>
+  <a href="https://earn.ratetomake.com/my-tasks/b8123036-78e5-4432-b36f-d2606e348991" class="button" style="background: linear-gradient(135deg, #ff6a00, #ff0000);" target="_blank">Task #5</a>
+  <a href="https://earn.ratetomake.com/my-tasks/ce16925e-97fd-4632-af52-6d921d842a32" class="button" style="background: linear-gradient(135deg, #00ffff, #0077ff);" target="_blank">Task #6</a>
+  </body>
+  </html>
